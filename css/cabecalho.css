@@ -1,0 +1,38 @@
+.cabecario {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5em 0em;
+}
+
+.cabecario__logo {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.4em;
+}
+
+.botao__entrar,
+.lista__link {
+    text-decoration: none;
+    color: var(--cinza-nav);
+    font-weight: 500;
+}
+
+.cabecario__botao .botao__entrar {
+    margin-right: 1em;
+}
+
+.botao__saiar {
+    text-decoration: none;
+    color: var(--branco);
+    background-color: var(--vermelho-botao);
+    font-weight: 500;
+    padding: .7em 1.2em;;
+    border-radius: 8px
+}

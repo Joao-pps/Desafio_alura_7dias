@@ -1,0 +1,15 @@
+@import url("css/cabecalho.css");
+
+:root {
+    --cinza-logo: #3A404E;
+    --cinza-nav: #667085;
+    --branco: #ffffff;
+    --vermelho-botao: #8E2424;
+    --font-principal: 'Inter', sans-serif;
+}
+
+body {
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
