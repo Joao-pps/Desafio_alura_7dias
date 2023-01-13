@@ -8,7 +8,7 @@
 .cabecario__logo {
     display: flex;
     align-items: center;
-    gap: 1em;
+    gap: .5em;
 }
 
 .lista {
