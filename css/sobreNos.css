@@ -1,0 +1,31 @@
+.sobreNos {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8em 0em
+}
+
+.sobreNos__titulo {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.sobreNos__texto {
+    font-size: 20px;
+    color: var(--cinza-nav);
+}
+
+.sobeNos__caixa {
+    width: 61%;
+    line-height: 30px;
+}
+
+.sobreNos__texto.texto--vermelho {
+    color: var(--vermelho-botao);
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 2em;
+}
