@@ -1,0 +1,31 @@
+.meritos {
+    padding: 2em 5.5em 5em 5.5em
+}
+
+.meritos__content {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.meritos__article {
+    width: 100%
+}
+
+.meritos__titulo {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho-botao);
+    margin-bottom: .5em;
+}
+
+.caixa__titulo {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: .8em;
+}
+
+.caixa__texto {
+    color: var(--cinza-nav);
+    line-height: 24px;
+}
