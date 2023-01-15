@@ -1,0 +1,28 @@
+.avaliacao__content {
+    text-align: center;
+    background-color: var(--cor-avaliacao);
+    padding: 4em 0em;
+}
+
+.avaliacao__texto-vermelho {
+    color: var(--vermelho-botao);
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 1em;
+}
+
+.avaliacao__titulo {
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 2em;
+}
+
+.avatar__titulo {
+    font-weight: 500;
+    margin: 1em 0em;
+}
+
+.avatar__texto {
+    font-size: 14px;
+    color: var(--cinza-nav);
+}
