@@ -13,19 +13,18 @@
     margin-bottom: 1em;
 }
 
-.sobreNos__texto {
-    font-size: 20px;
-    color: var(--cinza-nav);
+.sobreNos__texto--destacado {
+    color: var(--vermelho-botao);
+    font-weight: 600;
+    margin-bottom: 2em;
 }
 
-.sobreNos__caixa {
+.sobreNos__caixa--texto {
     width: 61%;
     line-height: 30px;
 }
 
-.sobreNos__texto.texto--vermelho {
-    color: var(--vermelho-botao);
-    font-weight: 600;
-    font-size: 16px;
-    margin-bottom: 2em;
+.sobreNos__texto {
+    font-size: 20px;
+    color: var(--cinza-nav);
 }

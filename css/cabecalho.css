@@ -11,14 +11,18 @@
     gap: .5em;
 }
 
-.lista {
+.cabecario__texto {
+    color: var(--cinza-logo)
+}
+
+.cabecario__menu {
     display: flex;
     justify-content: space-between;
     gap: 2.4em;
 }
 
 .botao__entrar,
-.lista__link {
+.menu__link {
     text-decoration: none;
     color: var(--cinza-nav);
     font-weight: 500;
