@@ -28,7 +28,7 @@
     grid-template-rows: 3em auto;
 }
 
-.content__filhos .texto__titulo {
+.texto__titulo {
     grid-area: a;
     font-weight: 500;
     font-size: 18px;

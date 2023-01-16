@@ -23,19 +23,19 @@
     margin-bottom: 3em;
 }
 
+.contato__email {
+    width: 30%;
+    border-radius: 8px;
+    border: 1px solid var(--borda-fomulario);
+    padding-left: 10px;
+}
+
 .contato__botao {
     background-color: var(--vermelho-botao);
     border: 1px solid var(--borda-botao);
     color: var(--branco);
     padding: .7em 1.2em;
     border-radius: 8px;
-}
-
-.contato__email {
-    width: 30%; 
-    border-radius: 8px;
-    border: 1px solid var(--borda-fomulario);
-    padding-left: 10px;
 }
 
 .rodape__texto-cinza {

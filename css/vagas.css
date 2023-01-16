@@ -6,9 +6,13 @@
     padding: 5em 6em
 }
 
-.vagas__titulo {
-    font-size: 36px;
-    font-weight: 600;
+.vagas .vagas__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    margin-bottom: 4em
 }
 
 .vagas__texto--efeito {
@@ -20,18 +24,14 @@
     color: var(--vermelho-botao);
 }
 
+.vagas__titulo {
+    font-size: 36px;
+    font-weight: 600;
+}
+
 .vagas__texto {
     font-size: 20px;
     color: var(--cinza-nav);
-}
-
-.vagas .vagas__content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5em;
-    margin-bottom: 4em
 }
 
 .vagas__imagem {
