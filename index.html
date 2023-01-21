@@ -15,11 +15,11 @@
     </head>
 
     <body>
-        <header class="cabecario">
-            <div class="cabecario__logo">
-                <img src="src/img/worldwide.svg" alt="Logotipo da pagina" title="OptimusTech" class="cabecario__imagem">
+        <header class="cabecario" role="heading">
+            <a href="index.html" title="Logo da OptimusTech" class="cabecario__logo">
+                <img src="src/img/worldwide.svg" alt="Logotipo da pagina" class="cabecario__imagem">
                 <p class="cabecario__texto">OptimusTech</p>
-            </div>
+            </a>
             <nav class="cabecario__navegacao">
                 <ul class="cabecario__menu">
                     <li class="menu__item"><a href="" class="menu__link">Home</a></li>
@@ -33,7 +33,7 @@
                 <a src="" href="" class="botao__saiar">Cadastrar</a>
             </div>
         </header>
-        <main class="sobreNos">
+        <main class="sobreNos" role="main">
             <p class="sobreNos__texto--destacado">Sobre nós</p>
             <h1 class="sobreNos__titulo">Por que somos diferentes?</h1>
             <div class="sobreNos__caixa--texto">
@@ -135,7 +135,7 @@
         <p class="rodape__texto">Seja o primeiro a saber quando novas vagas serão abertas!</p>
         <div class="rodape__contato">
             <input type="email" placeholder="Seu e-mail" class="contato__email" required>
-            <button class="contato__botao">Cadastrar</button>
+            <input type="submit" value="Cadastrar" class="contato__botao">
         </div>
         <p class="rodape__texto-cinza">© 2022 OptimusTech. Todos os direitos reservados.</p>
     </footer>
